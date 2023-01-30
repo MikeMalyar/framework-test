@@ -15,9 +15,6 @@ public class Main {
                 .getComponentByClass(ApplicationProperties.class);
 
         System.out.println();
-        System.out.println(baseApplicationProperties.getApplicationName());
-
-        System.out.println();
         System.out.println(applicationProperties.getApplicationName());
 
         System.out.println();
