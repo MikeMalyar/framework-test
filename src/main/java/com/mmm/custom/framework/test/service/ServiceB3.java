@@ -3,7 +3,7 @@ package com.mmm.custom.framework.test.service;
 import com.mmm.custom.framework.core.configuration.annotations.Component;
 import com.mmm.custom.framework.core.configuration.annotations.dependency.InjectComponents;
 
-@Component
+@Component(id = "ServiceB3")
 public class ServiceB3 {
 
     private final ServiceA1 serviceA1;
