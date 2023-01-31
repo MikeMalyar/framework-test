@@ -1,7 +1,6 @@
 package com.mmm.custom.framework.test;
 
 import com.mmm.custom.framework.core.configuration.context.AppContext;
-import com.mmm.custom.framework.core.property.BaseApplicationProperties;
 import com.mmm.custom.framework.test.configuration.ApplicationProperties;
 
 public class Main {
@@ -9,8 +8,6 @@ public class Main {
     public static void main(String[] args) {
         AppContext appContext = new AppContext("com.mmm.custom.framework.test");
 
-        BaseApplicationProperties baseApplicationProperties = (BaseApplicationProperties) appContext
-                .getComponentByClass(BaseApplicationProperties.class);
         ApplicationProperties applicationProperties = (ApplicationProperties) appContext
                 .getComponentByClass(ApplicationProperties.class);
 
