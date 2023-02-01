@@ -1,9 +1,10 @@
 package com.mmm.custom.framework.test.service;
 
-import com.mmm.custom.framework.core.configuration.annotations.Component;
+import com.mmm.custom.framework.core.configuration.annotations.component.Component;
+import com.mmm.custom.framework.core.configuration.annotations.component.ComponentStrategy;
 import com.mmm.custom.framework.core.configuration.annotations.dependency.InjectComponents;
 
-@Component
+@Component(strategy = ComponentStrategy.FACTORY)
 public class ServiceD1 {
 
     private final ServiceB1 serviceB1;

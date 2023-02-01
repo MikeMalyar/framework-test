@@ -1,6 +1,6 @@
 package com.mmm.custom.framework.test.configuration;
 
-import com.mmm.custom.framework.core.configuration.annotations.Component;
+import com.mmm.custom.framework.core.configuration.annotations.component.Component;
 import com.mmm.custom.framework.core.property.BaseApplicationProperties;
 import com.mmm.custom.framework.core.property.PropertyValue;
 
